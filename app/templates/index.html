@@ -1,0 +1,224 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <!--<meta http-equiv="refresh" content="60">-->
+    <meta name="google-adsense-account" content="ca-pub-4183532745215599">
+
+    <title>Portfolio (Dušan Rosić)</title>
+
+    <!-- Bootstrap Link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- End Link -->
+
+    <!-- Favicons -->
+    <link href="{% static 'app/assets/img/favicon.png' %}" rel="icon">
+    <link href="{% static 'app/assets/img/apple-touch-icon.png' %}" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="{% static 'app/https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="{% static 'app/assets/vendor/aos/aos.css' %}" rel="stylesheet">
+    <link href="{% static 'app/assets/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+    <link href="{% static 'app/assets/vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+    <link href="{% static 'app/assets/vendor/boxicons/css/boxicons.min.css' %}" rel="stylesheet">
+    <link href="{% static 'app/assets/vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
+    <link href="{% static 'app/assets/vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="{% static 'app/assets/css/style.css' %}" rel="stylesheet">
+  </head>
+
+  <body style="background-color:#F0F0F0;">
+    <!-- ======= Mobile nav toggle button ======= -->
+    <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+
+    <!-- ======= Header ======= -->
+    <header id="header" style="background-color:rgb(20, 30, 40); color:#FFFFFF;">
+      <div class="d-flex flex-column">
+
+        <div class="profile">
+          <img src="{% static 'app/assets/img/image.jpg' %}" alt="" class="img-fluid rounded-circle">
+          <h1 class="text-light"><a href="{% url 'index' %}">Dušan Rosić</a></h1>
+          <div class="social-links mt-3 text-center">
+            <a href="https://www.instagram.com/dusanrsc/" class="instagram"><i class="bx bxl-instagram"></i></a>
+            <a href="https://github.com/dusanrsc" class="google-plus"><i class="bx bxl-github"></i></a>
+            <a href="https://www.linkedin.com/in/dusan-rosic-896417287" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+
+            <a href="{% static '\app\assets\cv\CV.pdf' %}" class="download" download><i class="bx bx-download"></i></a>
+
+          </div>
+        </div>
+
+        <nav id="navbar" class="nav-menu navbar">
+          <ul>
+            <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+            <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+            <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-phone"></i> <span>Contact</span></a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="container" align="center">
+      <br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+      <small>
+        <small>
+          <small>
+          Updated: 05.04.2024 on Friday.
+        </small>
+      </small>
+    </small>
+
+    </header><!-- End Header -->
+
+    <main id="main">
+      <!-- ======= About Section ======= -->
+      <section id="about" class="about">
+        <div class="container">
+
+          <div class="section-title">
+            <h2>About</h2>
+            <h1 class="text text-light bg-primary">&nbsp;I am looking for an online job!</h1>
+            <h4 class="text text-light bg-primary">&nbsp;If you have a job for me contact me via Email or Social Media Accounts!</h4>
+            <h6>Download My CV <a href="{% static '\app\assets\cv\CV.pdf' %}" class="download" download>Here</a>.</h6><br/>
+            <h4 class="text text-light bg-primary">&nbsp;Hello there, i am Dušan Rosić.</h4>
+            <h4 class="text text-light bg-primary">&nbsp;Welcome to my portfolio website!</h4>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-4">
+              <img src="{% static 'app/assets/img/image1.jpg' %}" class="img-fluid" alt="My Photo">
+            </div>
+            <div class="col-lg-8 pt-4 pt-lg-0 content">
+              <h4 class="text text-light bg-primary">&nbsp;Python Lover & Back-End Web Developer.</h4>
+              <p>
+                •&nbsp;I am learning python programing language as hobbyist since 2019.<br/>
+                •&nbsp;Through my journey over the python programing language i made over 40 projects until present.<br/>•&nbsp;You can take a look at some of my projects on my official <a href="https://github.com/dusanrsc">github.com/dusanrsc</a> page.
+                <br/><br/><br/><br/><br/>
+              </p>
+            </div>
+            <h4 class="text text-light bg-primary">Some basic informations about me.</h4>
+              <div class="row">
+                <div class="col-lg-6">
+                  <ul>
+                    <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>June, 25. 1997</span></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Topola, Serbia</span></li>
+                  </ul>
+                </div>
+                <div class="col-lg-6">
+                  <ul>
+                    <li><i class="bi bi-chevron-right"></i> <strong>Languages:</strong> <span>Serbian, English and Russian</span></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong>Programming:</strong> <span>Python</span></li>
+                  </ul>
+                </div>
+              </div>
+            <h4 class="text text-light bg-primary">Non Tech Career:</h4>
+            <p>•&nbsp;I was licenced armed security guard for 4 years, from 2019 until 2023.</p>
+          </div>
+        </div>
+      </section><!-- End About Section -->
+
+      <br/><br/><br/>
+
+      <!-- ======= Resume Section ======= -->
+      <section id="resume" class="resume">
+        <div class="container">
+          <div class="section-title">
+            <h2>Resume</h2>
+            <h4 class="text text-light bg-primary">&nbsp;I am feeling comfortable in every technology that is noted down below.</h4>
+            <strong>•&nbsp;Python Technology (Basic):</strong>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;Basic Python Logic</p><br/>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;Tkinter</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;Pygame</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;Ursina</p><br/>
+
+            <strong>•&nbsp;Python Technology (Advanced):</strong>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;Advanced Python Logic</p>
+            <br/>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;Django</p><br/>
+            <strong>•&nbsp;Other Technologies:</strong>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;CMD</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;GitBash</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;GitHub</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;HTML</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;CSS</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;Bootstrap 4, 5</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;SQLite3 (Django)</p>
+            <br/>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;ChatGPT 3.5</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;Stack Owerflow</p><br/><hr>
+
+            <h4 class="text text-light bg-primary">&nbsp;Interested In Future:</h4>
+            <strong>•&nbsp;Django:</strong>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;Django REST</p></br>
+            <strong>•&nbsp;Python:</strong>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;Advanced AI Frameworks</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;Godot Game Engine</p></br>
+
+            <strong>•&nbsp;Programming Languages:</strong>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;JavaScript</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;C, C++, C# (C family)</p>
+          </div>
+        </div>
+      </section><!-- End Resume Section -->
+
+      <!-- ======= Contact Section ======= -->
+      <section id="contact" class="contact">
+        <div class="container">
+
+          <div class="section-title">
+            <h2>Contact</h2>
+            <h5 class="text text-light bg-primary">&nbsp;Contact me through my social media or email address.</h5>
+          </div>
+
+          <div class="row">
+            <div class="d-flex align-items-stretch">
+              <div class="info">
+                <div class="address">
+                  <i class="bi bi-geo-alt"></i>
+                  <h4>Location:</h4>
+                  <p>Topola, Serbia</p>
+                </div>
+
+                <div class="email">
+                  <i class="bi bi-envelope-at"></i>
+                  <h4>Email:</h4>
+                  <p>dusanrosic25.06.1997@gmail.com</p>
+                </div>
+
+                <div class="website">
+                  <i class="bx bx-home"></i>
+                  <h4>Website:</h4>
+                  <p>dusanrsc.pythonanywhere.com</p>
+                </div>
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d40547.077419027904!2d20.73695090910416!3d44.24939976036074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47574a5d8db40e31%3A0x5561eeb010f8bf7c!2z0KLQvtC_0L7Qu9Cw!5e1!3m2!1ssr!2srs!4v1705183564426!5m2!1ssr!2srs" width="850" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main><!-- End Main -->
+
+    <!-- Vendor JS Files -->
+    <script src="{% static 'app/assets/vendor/purecounter/purecounter_vanilla.js' %}"></script>
+    <script src="{% static 'app/assets/vendor/aos/aos.js' %}"></script>
+    <script src="{% static 'app/assets/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+    <script src="{% static 'app/assets/vendor/glightbox/js/glightbox.min.js' %}"></script>
+    <script src="{% static 'app/assets/vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
+    <script src="{% static 'app/assets/vendor/swiper/swiper-bundle.min.js' %}"></script>
+    <script src="{% static 'app/assets/vendor/typed.js/typed.umd.js' %}"></script>
+    <script src="{% static 'app/assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="{% static 'app/assets/vendor/php-email-form/validate.js' %}"></script>
+
+    <!-- Template Main JS File -->
+    <script src="{% static 'app/assets/js/main.js' %}"></script>
+  </body>
+</html>
