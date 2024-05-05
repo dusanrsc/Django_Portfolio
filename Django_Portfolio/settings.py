@@ -13,7 +13,18 @@ SECRET_KEY = 'django-insecure-*@tia4(gz(i=#u8oc6*4v%l#^zk8%%=(&uy3xu_#4vw(my#xej
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+# Sending email from form settings
+EMAIL_HOST = "smtp.gmail.com"
+EMAIL_HOST_USER = "dusanrosic25.06.1997@gmail.com" # Reciver email adress
+EMAIL_HOST_PASSWORD = "uhchwlhiuosmppry"
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
+
+# gagacvece034@gmail.com
+# dusanrosic25.06.1997@gmail.com
+
+ALLOWED_HOSTS = ["*"] # * for any
 
 # Application definition
 
@@ -90,11 +101,8 @@ AUTH_PASSWORD_VALIDATORS = [
 # https://docs.djangoproject.com/en/5.0/topics/i18n/
 
 LANGUAGE_CODE = 'en-us'
-
 TIME_ZONE = 'UTC'
-
 USE_I18N = True
-
 USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)

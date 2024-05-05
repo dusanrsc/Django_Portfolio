@@ -69,7 +69,7 @@
       <small>
         <small>
           <small>
-          Updated: 05.04.2024 on Friday.
+          Updated: 26.04.2024 on Friday.
         </small>
       </small>
     </small>
@@ -149,9 +149,7 @@
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;CSS</p>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;Bootstrap 4, 5</p>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;SQLite3 (Django)</p>
-            <br/>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;ChatGPT 3.5</p>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;Stack Owerflow</p><br/><hr>
+            <hr>
 
             <h4 class="text text-light bg-primary">&nbsp;Interested In Future:</h4>
             <strong>•&nbsp;Django:</strong>
@@ -188,18 +186,47 @@
                 <div class="email">
                   <i class="bi bi-envelope-at"></i>
                   <h4>Email:</h4>
-                  <p>dusanrosic25.06.1997@gmail.com</p>
+                  <p><a href="mailto:dusanrosic25.06.1997@gmail.com">dusanrosic25.06.1997@gmail.com</a></p>
                 </div>
 
                 <div class="website">
                   <i class="bx bx-home"></i>
                   <h4>Website:</h4>
-                  <p>dusanrsc.pythonanywhere.com</p>
+                  <p><a href="https://dusanrsc.pythonanywhere.com">dusanrsc.pythonanywhere.com</a></p>
                 </div>
 
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d40547.077419027904!2d20.73695090910416!3d44.24939976036074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47574a5d8db40e31%3A0x5561eeb010f8bf7c!2z0KLQvtC_0L7Qu9Cw!5e1!3m2!1ssr!2srs!4v1705183564426!5m2!1ssr!2srs" width="850" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d40547.077419027904!2d20.73695090910416!3d44.24939976036074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47574a5d8db40e31%3A0x5561eeb010f8bf7c!2z0KLQvtC_0L7Qu9Cw!5e1!3m2!1ssr!2srs!4v1705183564426!5m2!1ssr!2srs" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
               </div>
+              <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+                <form action="#" method="post" class="php-email-form">
+                    {% csrf_token %}
 
+                    <div class="row">
+                      <div class="form-group col-md-6">
+                        <label for="name">Your Name {{ name }}</label>
+                        <input type="text" name="name" class="form-control" id="name" required>
+                      </div>
+                      <div class="form-group col-md-6">
+                        <label for="name">Your Email</label>
+                        <input type="email" class="form-control" name="email" id="email" required>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="name">Subject</label>
+                      <input type="text" class="form-control" name="subject" id="subject" required>
+                    </div>
+                    <div class="form-group">
+                      <label for="name">Message</label>
+                      <textarea class="form-control" name="message" rows="10" required></textarea>
+                    </div>
+                    <!-- <div class="my-3">
+                      <div class="loading">Loading</div>
+                      <div class="error-message"></div>
+                      <div class="sent-message">Your message has been sent. Thank you!</div>
+                    </div> -->
+                    <div class="text-center"><button type="submit">Send Message</button></div>
+                  </form>
+                </div>
             </div>
           </div>
         </div>
