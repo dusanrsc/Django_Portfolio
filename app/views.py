@@ -10,6 +10,6 @@ def index(request):
 		subject = request.POST["subject"]
 		email = request.POST["email"]
 		name = request.POST["name"]
-		send_mail(subject, message, "settings.EMAIL_HOST_USER", [email], fail_silently=False)
+		send_mail(subject, message, "settings.EMAIL_HOST_USER", ["dusanrosic25.06.1997@gmail.com"], fail_silently=False)
 
-	return render(request, "index.html", {})
+		return render(request, "index.html", {})
